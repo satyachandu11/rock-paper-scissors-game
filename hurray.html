@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS Game: Hurray!</title>
+    <link rel="stylesheet" href="./hurray.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Delius+Unicase&family=Dangrek&family=DM+Sans&family=Roboto&family=Inter:wght@700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+    <img src="./trophy.png" alt="Cup Image">
+    <img id="stars" src="./stars.png" alt="Stars">
+    <h1>HURRAY!!</h1>
+    <h2>YOU WON THE GAME</h2>
+    <button id="hurray-play-again-btn">PLAY AGAIN</button>
+    <div class="rules-box2" id="hurray-rules-btn">
+            <h3>RULES</h3>
+    </div>
+
+     <!-- Rules -->
+    <div class="rules-container" id="rulesDetails" style="display: none;">
+        <div class="rules">
+            <h1>Game Rules</h1>
+            <ul>
+                <li>Rock beats scissors, scissors beat paper, and paper beats rock.</li>
+                <li>Agree ahead of time whether you'll count off “rock, paper, scissors, shoot” or just “rock, paper, scissors.”</li>
+                <li>Use rock, paper, scissors to settle minor decisions or simply play to pass the time</li>
+                <li>If both players lay down the same hand, each player lays down another hand</li>
+            </ul>
+        </div>
+        <div class="rules-close" id="rulesClose">
+            <h4>X</h4>
+        </div>
+    </div>
+    <script src="./hurray.js"></script>
+</body>
+</html>
